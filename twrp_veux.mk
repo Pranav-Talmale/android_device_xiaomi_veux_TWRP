@@ -14,25 +14,20 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/haydn
+DEVICE_PATH := device/xiaomi/veux
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := haydn
+PRODUCT_RELEASE_NAME := veux
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := haydn
-PRODUCT_NAME := twrp_haydn
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi K40 Pro
+PRODUCT_DEVICE := veux
+PRODUCT_NAME := twrp_veux
+PRODUCT_BRAND := POCO
+PRODUCT_MODEL := POCO X4 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := haydn,haydnpro,haydn_in,haydnin
-
-# Theme
-TW_STATUS_ICONS_ALIGN := center
-TW_Y_OFFSET := 88
-TW_H_OFFSET := -88
+TARGET_OTA_ASSERT_DEVICE := veux,peux
