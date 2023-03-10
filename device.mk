@@ -33,7 +33,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_PACKAGES += \
-    bootctrl.xiaomi_sm8350.recovery \
+    bootctrl.veux.recovery \
     android.hardware.boot@1.1-impl-qti.recovery
 
 # SHIPPING API
