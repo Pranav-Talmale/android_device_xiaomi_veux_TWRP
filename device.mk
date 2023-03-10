@@ -62,8 +62,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Kernel
-TWRP_REQUIRED_MODULES += miui_prebuilt \
-    magisk_prebuilt
+TWRP_REQUIRED_MODULES += \
+	miui_prebuilt
 
 # Twrp Decryption
 PRODUCT_PACKAGES += \
