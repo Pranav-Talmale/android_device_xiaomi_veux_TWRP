@@ -49,3 +49,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 TWRP_REQUIRED_MODULES += miui_prebuilt \
     magisk_prebuilt
+
+# Twrp Decryption
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
